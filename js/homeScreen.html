@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../CSS/HomeScreen-Style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu_side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Última Escutada</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recomendado</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="/img/xama.webp" alt="Xamã">
+                    <h5>
+                        Zodíaco
+                        <div class="subtitle">Xamã</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="/img/Filipe Ret - WAR.jpg" alt="Filipe Ret">
+                    <h5>
+                        WAR
+                        <div class="subtitle">Filipe Ret</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="/img/Vem Cá - Pelé MilFlows.avif" alt="Pelé MilFlows">
+                    <h5>
+                        Vem Cá
+                        <div class="subtitle">Pelé MilFlows</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="/img/L7NNON - Perdição.webp" alt="L7NNON">
+                    <h5>
+                        Perdição
+                        <div class="subtitle">L7NNON</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="/img/Matuê - A Morte do Autotune.png" alt="Matuê">
+                    <h5>
+                        A Morte do Autotune
+                        <div class="subtitle">Matuê</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="/img/VEIGH - ENGANA DIZENDO QUE AMA.jpg" alt="VEIGH">
+                    <h5>
+                        ENGANA DIZENDO QUE AMA
+                        <div class="subtitle">VEIGH</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                </li>
+            </div>
+        </div>
+
+
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Descubra<span></span></li>
+                    <li>Minha Bliblioteca</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Pesquisar música..">
+                </div>
+                <div class="user">
+                    <img src="/img/user.jpeg" alt="User" title="KDS CODER (jahid khan)">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Bruno Mars</h1>
+                <p>
+                    Oh, whoa <br>
+I know that you don't know it <br>
+But you're fine, so fine (fine, so fine)
+Oh, whoa
+                </p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Song</h4>
+                    <div class="btn_s">
+                        <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                        <i id="right_scroll" class="bi bi-arrow-right-short"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/img/xama.webp" alt="xama">
+                            <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5>Zodíaco
+                            <br>
+                            <div class="subtitle">Xamã</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/img/Poesia-Acustica.jpg" alt="Poesia Acústica">
+                            <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>Capricorniana
+                            <br>
+                            <div class="subtitle">Poesia Acústica #3</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/img/Matuê - A Morte do Autotune.png" alt="Matuê">
+                            <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                        </div>
+                        <h5>A Morte do Autotune
+                            <br>
+                            <div class="subtitle">Matuê</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/img/Vulgo FK, MC PH, Veigh - Ballena.jpg" alt="Vulgo FK, MC PH, Veigh">
+                            <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>Ballena
+                            <br>
+                            <div class="subtitle">Vulgo FK, MC PH, Veigh</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/img/VEIGH - ENGANA DIZENDO QUE AMA.jpg" alt="VEIGH">
+                            <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                        </div>
+                        <h5>ENGANA DIZENDO QUE AMA
+                            <br>
+                            <div class="subtitle">VEIGH</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/img/WAR.jpg" alt="Filipe Ret">
+                            <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                        </div>
+                        <h5>WAR
+                            <br>
+                            <div class="subtitle">Filipe Ret</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/img/L7NNON, PK, Mun Ra - Barcelona.jpeg" alt="L7NNON, PK, Mun Ra">
+                            <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+                        </div>
+                        <h5>Barcelona
+                            <br>
+                            <div class="subtitle">L7NNON, PK, Mun Ra</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/img/Orgânico - Pelé Milflows  SóCiro  Olívia  San Joe - Baila Mais.jpg" alt="Pelé Milflows  SóCiro  Olívia  San Joe">
+                            <i class="bi playListPlay bi-play-circle-fill" id="17"></i>
+                        </div>
+                        <h5>Baila
+                            <br>
+                            <div class="subtitle">Orgânico</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/img/L7NNON - Perdição.webp" alt="L7NNON">
+                            <i class="bi playListPlay bi-play-circle-fill" id="18"></i>
+                        </div>
+                        <h5>Perdição
+                            <br>
+                            <div class="subtitle">L7NNON</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="/img/Vem Cá - Pelé MilFlows.avif" alt=" Pelé MilFlows">
+                            <i class="bi playListPlay bi-play-circle-fill" id="19"></i>
+                        </div>
+                        <h5>Vem Cá
+                            <br>
+                            <div class="subtitle"> Pelé MilFlows</div>
+                        </h5>
+                    </li>
+                </div>
+            </div>
+            <div class="popular_artists">
+            <div class="h4">
+                <h4>Popular Artistia</h4>
+                <div class="btn_s">
+                    <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                    <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+                </div>
+            </div>
+            <div class="item">
+                <li>
+                    <img src="/img/xama.webp" alt="Xamã" title="Xamã">
+                </li> 
+                <li>
+                    <img src="/img/L7NNON.avif" alt="L7NNON" title="L7NNON">
+                </li> 
+                <li>
+                    <img src="/img/Orochi.avif" alt="Orochi " title="Orochi ">
+                </li> 
+                <li>
+                    <img src="/img/vulgo fk.webp" alt="vulgo fk" title="vulgo fk">
+                </li> 
+                <li>
+                    <img src="/img/filipe ret.webp" alt="filipe ret" title="filipe ret">
+                </li> 
+                <li>
+                    <img src="/img/bruna viola.jpg" alt="bruna viola" title="bruna viola">
+                </li> 
+                <li>
+                    <img src="/img/iguinho e lulinha.avif" alt="iguinho e lulinha" title="iguinho e lulinha">
+                </li> 
+                <li>
+                    <img src="/img/marilia mendonça.jpg" alt="marilia mendonça" title="marilia mendonça">
+                </li> 
+                <li>
+                    <img src="/img/1kilogo.png" alt="1kilogo" title="1kilogo">
+                </li> 
+                <li>
+                    <img src="/img/zé neto e cristiano.png" alt="zé neto e cristiano" title="zé neto e cristiano">
+                </li> 
+                <li>
+                    <img src="/img/joao gomes.webp" alt="joao gomes" title="joao gomes">
+                </li> 
+                <li>
+                    <img src="/img/imagine dragon.jpg" alt="imagine dragon" title="imagine dragon">
+                </li> 
+                <li>
+                    <img src="/img/djonga.webp" alt="djonga" title="djonga">
+                </li> 
+            
+                
+            </div>
+        </div>
+        </div>
+
+
+
+        <div class="master_play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="/img/xama.webp" alt="Xamã">
+            <h5>Zodíaco <br>
+                <div class="subtitle">Xamã</div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:00</span>
+
+            <div class="vol">
+                <i class="bi bi-volume-down-fill"></i>
+                <input type="range" id="vol" min="0" value="30" max="100">
+                <div class="vol"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+
+
+    </header>
+    <script src="app.js"></script>
+</body>
+
+</html>
